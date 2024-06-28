@@ -1,0 +1,9 @@
+:root {
+    --white: #ffffff;
+    --gold: #C89B3C; 
+    --black: #010A13;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}

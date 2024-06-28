@@ -7,3 +7,44 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/* Custom CSS to move navbar items to the right */
+.navbar-nav {
+    margin-left: auto; /* This pushes the nav items to the right */
+}
+
+.navbar-custom {
+    background-color: var(--black);
+    font-size: 20px;
+    border: 2px solid #C89B3C; /* 테두리 두께 및 색상 설정 */
+}
+
+.league_logo {
+    margin-right: auto;
+    margin-left: 2em;
+    height: 50px; /* 높이를 50px로 조정 */
+    width: 50px; /* 너비를 50px로 조정 */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-toggler,
+.navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-item,
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--white);
+}
+
+.navbar > a{
+    margin-left:3rem;
+}
+
+.navbar-nav > .nav-item {
+    margin-left:3rem;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    text-decoration: underline; 
+}

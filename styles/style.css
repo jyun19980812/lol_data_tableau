@@ -1,3 +1,14 @@
+@font-face {
+    font-family :'BeaufortforLOL-Bold';
+    src : url(BeaufortforLOL-Bold.ttf);
+
+    font-family : 'BeaufortforLOL';
+    src : url(BeaufortforLOL-Regular.ttf);
+
+    font-family : 'BeaufortforLOL-Heavy';
+    src : url(BeaufortforLOL-Heavy.ttf);
+}
+
 :root {
     --white: #ffffff;
     --gold: #C89B3C; 

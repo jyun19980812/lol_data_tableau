@@ -1,28 +1,42 @@
-.Jinx_Get_Jinxed {
-    left: 8.39%;
-    right: 7.6%;
-    top: 6.65%;
-    bottom: 1.27%;
-    position: absolute;
-    z-index: 1;
-    
-    width: 100%; /* 이미지 크기를 조정하세요 */
-    height: auto;
+.main-banner {
+    position: relative; 
+}
 
+.report-background {
+    background-color: #010A13;
+}
+
+.main-banner-img {
+    opacity: 0.5;
+}
+
+.banner-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 10; 
 }
 
 
-
-.h-container {
-    background-color: var(--black);
-    height: 100%;
-    flex-direction: column;
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s ease-in forwards; 
 }
 
-.explain-container {
-    align-items: center;
+@keyframes fadeIn {
+    to { opacity: 1; }
 }
 
-.f-container {
-    background-color: var(--gold);
+.white-text-banner {
+    color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 36px;
+}
+
+.white-text-banner-title {
+    color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 72px;
 }

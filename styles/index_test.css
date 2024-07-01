@@ -1,0 +1,28 @@
+.Jinx_Get_Jinxed {
+    left: 8.39%;
+    right: 7.6%;
+    top: 6.65%;
+    bottom: 1.27%;
+    position: absolute;
+    z-index: 1;
+    
+    width: 100%; /* 이미지 크기를 조정하세요 */
+    height: auto;
+
+}
+
+
+
+.h-container {
+    background-color: var(--black);
+    height: 100%;
+    flex-direction: column;
+}
+
+.explain-container {
+    align-items: center;
+}
+
+.f-container {
+    background-color: var(--gold);
+}

@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'BeaufortforLOL-Bold';
-    src: url('BeaufortforLOL-Bold.ttf');
+    src: url('./BeaufortforLOL_font/BeaufortforLOL-Bold.ttf');
 }
 
 
 @font-face {
     font-family: 'BeaufortforLOL';
-    src: url('BeaufortforLOL-Regular.ttf');
+    src: url('./BeaufortforLOL_font/BeaufortforLOL-Regular.ttf');
 }
 
 
 @font-face {
     font-family: 'BeaufortforLOL-Heavy';
-    src: url('BeaufortforLOL-Heavy.ttf');
+    src: url('./BeaufortforLOL_font/BeaufortforLOL-Heavy.ttf');
 }
 
 :root {

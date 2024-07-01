@@ -1,12 +1,16 @@
 @font-face {
-    font-family :'BeaufortforLOL-Bold';
-    src : url(BeaufortforLOL-Bold.ttf);
+    font-family: 'BeaufortforLOL-Bold';
+    src: url('BeaufortforLOL-Bold.ttf');
+}
 
-    font-family : 'BeaufortforLOL';
-    src : url(BeaufortforLOL-Regular.ttf);
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('BeaufortforLOL-Regular.ttf');
+}
 
-    font-family : 'BeaufortforLOL-Heavy';
-    src : url(BeaufortforLOL-Heavy.ttf);
+@font-face {
+    font-family: 'BeaufortforLOL-Heavy';
+    src: url('BeaufortforLOL-Heavy.ttf');
 }
 
 :root {
@@ -44,6 +48,7 @@
 .navbar-custom .navbar-nav .nav-item,
 .navbar-custom .navbar-nav .nav-link {
     color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
 }
 
 .navbar > a{

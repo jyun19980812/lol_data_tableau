@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./styles/index_test.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="main-background">
+    <header>
     <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-lg justify-content-between navbar-custom">
+    <nav class="navbar navbar-expand-lg justify-content-between navbar-custom navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
             <img src="./images/LoL_Icon_Flat_GOLD.png" alt="League Logo" class="league_logo">
@@ -36,17 +37,71 @@
           </div>
         </div>
     </nav>
+    </header>
     <!-- Navigation Bar-->
-    <div class="main-banner gap text-center">
-        <img src="images/league_banner.jpg" alt="Introducing champions" style="width:100%;" class="main-banner-img">
-        <div class="text-center banner-text">
-            <h1 class="white-text-banner-title fade-in">Champions</h1>
-            <p class="white-text-banner fade-in">View Champions Statistics</p>
+    <main class="justify-content-center align-items-center" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main-banner text-center">
+                    <img src="images/main_page_banner.jpg" alt="Introducing champions" style="width:100%" class="main-banner-img">
+                    <div class="text-center banner-text mt-2">
+                        <h1 class=" white-text-banner white-text-banner-title fade-in">APEX TIERS</h1>
+                        <p class="white-text-banner fade-in">League of Legends Analysis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="champ_analysis">
+                <section class="section-banner text-center d-flex flex-column flex-md-row align-items-center">
+                    <div class="col-12 col-md-6 order-2 order-md-1">
+                        <div class="section-text-container">
+                            <h2 class="section-text-title">Champion Analysis</h2>
+                            <p class="section-text">최고 수준의 플레이어들이 사용하는 챔피언들의 통계와 메타를 분석합니다. 각 챔피언의 승률, 픽률 등 다양한 데이터를 제공하여 게임 플레이에 도움이 되는 정보를 제공합니다.</p>
+                            <a class="section-text learn-more" href="./champions.html">Learn More...</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-1 order-md-2">
+                        <img src="./images/ahri_banner.png" alt="ahri" class="img-fluid">
+                    </div>
+                </section>
+            </div>
+            <div class="row" id="win-analysis">
+                <section class="section-banner text-center d-flex flex-column flex-md-row align-items-center">
+                    <div class="col-12 col-md-6 order-1 order-md-1">
+                        <img src="./images/kindred.jpg" alt="kindred" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 order-2 order-md-2">
+                        <div class="section-text-container">
+                            <h2 class="section-text-title">Win/Lose Feature Analysis</h2>
+                            <p class="section-text">게임에서 승리하기 위한 주요 요인들을 분석합니다. 주요 승리 요인들을 파악하고, 이를 기반으로 한 전략적인 플레이를 제안합니다.</p>
+                            <a class="section-text learn-more" href="./report.html">Learn More...</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row" id="about-us">
+                <section class="section-banner text-center d-flex flex-column flex-md-row align-items-center">
+                    <div class="col-12 col-md-6 order-2 order-md-1">
+                        <div class="section-text-container">
+                            <h2 class="section-text-title">About Us</h2>
+                            <p class="section-text">저희 <strong>취업할때까지롤금지</strong>팀은 KDT 3기 데브코스에서 라이엇 Open Api를 통한 리그오브레전드 천상계 매치 데이터 분석 프로젝트와 후속작으로 태블로 분석 웹페이지 개발을 함께 진행하였습니다. </p>
+                            <p class="section-text">저희에 대해 더 알고 싶으시다면:</p>
+                            <a class="section-text learn-more" href="./about_us.html">Contact...</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-1 order-md-2">
+                        <img src="./images/our-team.jpg" alt="team picture" class="img-fluid">
+                    </div>
+                </section>
+            </div>
         </div>
-    </div>
-
-    <footer class="f-container">
-      213
+    </main>
+    <footer class="text-center text-lg-start footer-style">
+        <div class="container">    
+          <div class="text-center text-white">
+            <img src="images/logo_black.png" alt="Logo" style="width:15%">
+            &copy; 2024 팀 "취업할때까지롤금지"
+          </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

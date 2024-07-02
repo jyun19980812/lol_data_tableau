@@ -28,7 +28,7 @@
 
 /* Custom CSS to move navbar items to the right */
 .navbar-nav {
-    margin-left: auto; /* This pushes the nav items to the right */
+    
 }
 
 .navbar-custom {
@@ -62,7 +62,9 @@
 
 .navbar-nav > .nav-item {
     margin-left:3rem;
+    margin-right: 2rem;
 }
+
 
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,

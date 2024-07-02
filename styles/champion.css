@@ -1,0 +1,57 @@
+.champion-header {
+    font-family: 'BeaufortforLOL-Heavy';
+    font-size: 3vh;
+}
+
+.report-background {
+    background-color: #010A13;
+    color: #ffffff;
+}
+
+.champion-text {
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 2vh;
+}
+
+.main-banner {
+    position: relative; 
+}
+
+.main-banner-img {
+    opacity: 0.5;
+}
+
+.banner-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 10; 
+}
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s ease-in forwards; 
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.white-text-banner {
+    color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 3vh;
+}
+
+.white-text-banner-title {
+    color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 5vh;
+}
+
+.gap {
+    margin-bottom: 32px;
+}

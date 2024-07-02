@@ -1,9 +1,47 @@
-.main-banner {
-    position: relative; 
+/* Common Styles */
+.main-background {
+    background-color: #010A13;
+    font-family: 'BeaufortforLOL-Bold';
+}
+  
+.white-text-banner {
+    color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 3vh;
 }
 
-.report-background {
-    background-color: #010A13;
+.section-text-title {
+    color: #F0E6D2;
+    font-family: 'BeaufortforLOL-Bold';
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 3vh;
+}
+
+.white-text-banner-title { /* Title variation for main banner */
+    font-size: 5vh;
+}
+
+.section-text {
+    color: var(--white);
+    font-family: 'BeaufortforLOL-Bold';
+    font-size: 2.5vh;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.section-banner {
+    padding: 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #C89B3C;
+}
+
+/* Main Banner */
+.main-banner {
+    position: relative;
+    margin-bottom: 3em;
 }
 
 .main-banner-img {
@@ -11,32 +49,55 @@
 }
 
 .banner-text {
-    position: absolute; 
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     text-align: center;
-    z-index: 10; 
+    z-index: 10;
 }
-
 
 .fade-in {
     opacity: 0;
-    animation: fadeIn 3s ease-in forwards; 
+    animation: fadeIn 3s ease-in forwards;
 }
 
 @keyframes fadeIn {
     to { opacity: 1; }
 }
 
-.white-text-banner {
-    color: var(--white);
-    font-family: 'BeaufortforLOL-Bold';
-    font-size: 36px;
+/* Section Banners (Champion Analysis, Win/Lose, About Us) */
+#champ_analysis {
+    margin-top: 5em;
+    background-color: #091428;
 }
 
-.white-text-banner-title {
+#win-analysis {
+    margin-top: 5em;
+    background-color: #0A323C;
+}
+
+#about-us {
+    margin-top: 5em;
+    background-color: #1E282D;
+}
+
+.section-text-container { /* Container for section text */
+    margin-left: 3em;
+    width: 80%;
+}
+
+.learn-more { /* Link styling */
+    font-weight: bold;
     color: var(--white);
+    text-decoration: none;
+}
+
+/* Footer */
+.footer-style {
+    background-color: #010A13;
+    color: white;
     font-family: 'BeaufortforLOL-Bold';
-    font-size: 72px;
+    border: 2px solid #C89B3C;
+    margin-top: 3rem;
 }

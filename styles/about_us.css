@@ -1,10 +1,6 @@
 
 .about_us-background {
     background-color: #010A13;
-}
-
-.abou_us-background {
-    background-color: #010A13;
     color: #ffffff;
 }
 
@@ -54,12 +50,6 @@
     margin-bottom: 50px;
 }
     
-.team_member{
-    display: grid;    
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
-    padding: 10px;
-}
 
 @media (max-width: 1200px) {
     .team-container {
@@ -120,5 +110,25 @@ h2 > ul {
 }
 
 .decowing {
-    height: 40px;
+    margin: 30px;
+}
+
+.card-body {
+    background-color: var(--black);
+}
+
+.card .card-title,
+.card .card-text,
+.card .btn {
+    color: var(--white);
+    text-align: left;
+    margin-left: 30px;
+}
+
+.card-title {
+    text-align : left;
+}
+
+.col-md-4 {
+    border-color: var(--gold);
 }

@@ -1,0 +1,19 @@
+.report-background {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.notion {
+    width: 80%;
+    height: 80vh;
+    border: none;
+
+}
+
+main > div >div {
+    width: 80%;
+}

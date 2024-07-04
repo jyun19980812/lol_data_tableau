@@ -1,3 +1,27 @@
+
+.text-Heavy {
+    font-family: BeaufortforLOL-Heavy;
+    font-size: 50px;  
+}
+.text-Normal {
+    font-family: BeaufortforLOL;
+    font-size: 50px;  
+}
+.text-Bold {
+    font-family: BeaufortforLOL-Bold;
+    font-size: 50px;  
+}
+
+.text-gold {
+    color: var(--gold);
+}
+.text-white {
+    color: var(--white);
+}
+.text-black {
+    color: var(--black);
+}
+
 @font-face {
     font-family: 'BeaufortforLOL-Bold';
     src: url('./BeaufortforLOL_font/BeaufortforLOL-Bold.ttf');
@@ -27,17 +51,24 @@
 
 
 /* Custom CSS to move navbar items to the right */
-.navbar-nav {
+.fixed {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
     
 }
+
+main {
+    padding-top: 75px;
+}
+
+
 
 .navbar-custom {
     background-color: var(--black);
     font-size: 20px;
-    border: 2px solid #C89B3C; /* 테두리 두께 및 색상 설정 */
-
-    position: fixed;
-    top: 0;
+    border: 2px solid #C89B3C; /* 테두리 두께 및 색상 설정 */  
 }
 
 .league_logo {
@@ -54,6 +85,7 @@
 .navbar-custom .navbar-nav .nav-link {
     color: var(--white);
     font-family: 'BeaufortforLOL-Bold';
+    
 }
 
 .navbar > a{
@@ -71,3 +103,19 @@
 .navbar-custom .nav-item:hover .nav-link {
     text-decoration: underline; 
 }
+
+/* Footer */
+.footer-style {
+    background-color: #010A13;
+    color: white;
+    font-family: 'BeaufortforLOL-Bold';
+    border: 2px solid #C89B3C;
+    margin-top: 0;
+}
+
+.decobar {
+    margin-top: 20px;
+    min-width: 10%;
+    max-width: 90%;
+}
+

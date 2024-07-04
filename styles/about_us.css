@@ -1,35 +1,9 @@
 
 .about_us-background {
     background-color: #010A13;
-}
-
-.abou_us-background {
-    background-color: #010A13;
     color: #ffffff;
 }
 
-.text-Heavy {
-    font-family: BeaufortforLOL-Heavy;
-    font-size: 50px;  
-}
-.text-Normal {
-    font-family: BeaufortforLOL;
-    font-size: 50px;  
-}
-.text-Bold {
-    font-family: BeaufortforLOL-Bold;
-    font-size: 50px;  
-}
-
-.text-gold {
-    color: var(--gold);
-}
-.text-white {
-    color: var(--white);
-}
-.text-black {
-    color: var(--black);
-}
 
 .fade-in {
     opacity: 0;
@@ -47,19 +21,13 @@
     display: column;
     /* grid-template-columns: repeat(3, 1fr); */
     gap: 30px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .team-intro {
     margin-bottom: 50px;
 }
     
-.team_member{
-    display: grid;    
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
-    padding: 10px;
-}
 
 @media (max-width: 1200px) {
     .team-container {
@@ -105,20 +73,34 @@ h2 > ul {
     text-align: left;
 }
 
-.decobar {
-    margin-top: 20px;
-    min-width: 10%;
-    max-width: 90%;
-
-}
 
 .team-deco{
     display : flex; /*flex를 이용하겠다.*/
     justify-content: center;
-    flex-wrap : nowrap;
-    
+    flex-wrap : nowrap; 
 }
 
 .decowing {
-    height: 40px;
+    margin: 30px;
 }
+
+.card-body {
+    background-color: var(--black);
+}
+
+.card .card-title,
+.card .card-text,
+.card .btn {
+    color: var(--white);
+    text-align: left;
+    margin-left: 30px;
+}
+
+.card-title {
+    text-align : left;
+}
+
+.col-md-4 {
+    border-color: var(--gold);
+}
+

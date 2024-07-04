@@ -4,28 +4,6 @@
     color: #ffffff;
 }
 
-.text-Heavy {
-    font-family: BeaufortforLOL-Heavy;
-    font-size: 50px;  
-}
-.text-Normal {
-    font-family: BeaufortforLOL;
-    font-size: 50px;  
-}
-.text-Bold {
-    font-family: BeaufortforLOL-Bold;
-    font-size: 50px;  
-}
-
-.text-gold {
-    color: var(--gold);
-}
-.text-white {
-    color: var(--white);
-}
-.text-black {
-    color: var(--black);
-}
 
 .fade-in {
     opacity: 0;
@@ -43,7 +21,7 @@
     display: column;
     /* grid-template-columns: repeat(3, 1fr); */
     gap: 30px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .team-intro {
@@ -95,18 +73,11 @@ h2 > ul {
     text-align: left;
 }
 
-.decobar {
-    margin-top: 20px;
-    min-width: 10%;
-    max-width: 90%;
-
-}
 
 .team-deco{
     display : flex; /*flex를 이용하겠다.*/
     justify-content: center;
-    flex-wrap : nowrap;
-    
+    flex-wrap : nowrap; 
 }
 
 .decowing {
@@ -132,3 +103,4 @@ h2 > ul {
 .col-md-4 {
     border-color: var(--gold);
 }
+

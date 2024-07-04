@@ -17,3 +17,24 @@
 main > div >div {
     width: 80%;
 }
+
+.team-container {
+    display: column;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 30px;
+    padding: 50px;
+}
+
+.text-60px {
+    font-size: 60px;
+}
+
+.team-deco{
+    display : flex; /*flex를 이용하겠다.*/
+    justify-content: center;
+    flex-wrap : nowrap; 
+}
+
+.decowing {
+    margin: 30px;
+}

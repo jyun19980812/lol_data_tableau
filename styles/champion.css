@@ -52,6 +52,20 @@
     font-size: 5vh;
 }
 
+@media (max-width: 600px) {
+    .white-text-banner {
+        color: var(--white);
+        font-family: 'BeaufortforLOL-Bold';
+        font-size: 16px;
+    }
+    
+    .white-text-banner-title {
+        color: var(--white);
+        font-family: 'BeaufortforLOL-Bold';
+        font-size: 28px;
+    }
+}
+
 .gap {
     margin-bottom: 32px;
 }
@@ -59,4 +73,9 @@
 .tableaucontainer {
     min-width: 10%;
     max-width: 90%
+}
+
+.champion-block {
+    margin-bottom: 2em;
+    color: #F0E6D2;
 }

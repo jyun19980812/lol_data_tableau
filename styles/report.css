@@ -7,6 +7,12 @@
     min-height: 100vh;
 }
 
+.pdf-text {
+    color: #ffffff;
+    font-family:'BeaufortforLOL-Heavy';
+    font-size: 2vh;
+}
+
 .report-text {
     color: #ffffff;
     font-family:'BeaufortforLOL-Heavy';

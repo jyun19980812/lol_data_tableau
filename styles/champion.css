@@ -55,3 +55,8 @@
 .gap {
     margin-bottom: 32px;
 }
+
+.tableaucontainer {
+    min-width: 10%;
+    max-width: 90%
+}

@@ -38,3 +38,14 @@ main > div >div {
 .decowing {
     margin: 30px;
 }
+
+.size75 {
+    width: 75px;
+    height: 75px;
+}
+
+.size100 {
+    width: 100px;
+    height: 100px;
+}
+

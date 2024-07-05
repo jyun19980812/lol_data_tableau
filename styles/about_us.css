@@ -27,6 +27,11 @@
 .team-intro {
     margin-bottom: 50px;
 }
+.p-batch {
+    min-width: 20%;
+    max-width: 80%;
+    margin: 10px auto;
+}
     
 
 @media (max-width: 1200px) {
@@ -62,12 +67,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.p-batch {
-    min-width: 20%;
-    max-width: 80%;
-    text-align: center;
-    margin: 0 auto;
-}
+
 
 h2 > ul {
     text-align: left;
@@ -81,7 +81,9 @@ h2 > ul {
 }
 
 .decowing {
-    margin: 30px;
+    margin-top: 30px;
+    margin: 30px 10px 0px 10px;
+    height: 5vh;
 }
 
 .card-body {
@@ -96,11 +98,22 @@ h2 > ul {
     margin-left: 30px;
 }
 
+.card-detail {
+    color: var(--white);
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
 .card-title {
     text-align : left;
 }
 
 .col-md-4 {
     border-color: var(--gold);
+}
+
+.font-size3vh {
+    font-size: 10;
 }
 

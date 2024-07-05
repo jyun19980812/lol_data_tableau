@@ -1,0 +1,51 @@
+.report-background {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.notion {
+    width: 80%;
+    height: 80vh;
+    border: none;
+
+}
+
+main > div >div {
+    width: 80%;
+}
+
+.team-container {
+    display: column;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 30px;
+    padding: 50px;
+}
+
+.text-60px {
+    font-size: 60px;
+}
+
+.team-deco{
+    display : flex; /*flex를 이용하겠다.*/
+    justify-content: center;
+    flex-wrap : nowrap; 
+}
+
+.decowing {
+    margin: 30px;
+}
+
+.size75 {
+    width: 75px;
+    height: 75px;
+}
+
+.size100 {
+    width: 100px;
+    height: 100px;
+}
+
